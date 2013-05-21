@@ -729,9 +729,11 @@ if( ! function_exists('dw_script_header') ) {
     ?>
     <style type="text/css">
         .site-header #branding a {
-            display: block;
+            /** SUNSCAPE **/
+            /**** HEADER LOGO FORCED INTO CODE, MUST BE COMMENTED BY DEFAULT ****/
+            /* display: block;
             background: url(<?php echo $logo_custom_image; ?>) no-repeat center;
-            text-indent: -9999px;
+            text-indent: -9999px;*/
         }
     </style>
     <?php 
